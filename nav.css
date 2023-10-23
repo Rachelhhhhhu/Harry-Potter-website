@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.NavBarSection{
+    background-color: grey;
+    width:100%;
+    height:100%;
+}
+.NavBar{
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 0px;
+    align-items: center;
+}
+.NavBar::before{
+    content: "";
+    width:100%;
+    height:100%;
+}
+.NavBar ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+    justify-content: left;
+}
